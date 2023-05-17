@@ -40,7 +40,7 @@ function App() {
 
 
   return (
-    <div className=" grid place-content-center min-h-screen bg-[url('/clima.jpeg')]  bg-cover px-2 w-[100%]">
+    <div className=" grid place-content-center min-h-screen bg-[url('/clima.jpeg')]  bg-repeat-round px-2 w-[100%]">
       {
         weather ? (
 
