@@ -31,21 +31,21 @@ const Weather = ({ weather, temp }) => {
       <article className="bg-slate-300/70 rounded-3xl grid grid-cols-3 justify-items-center items-center py-2 sm:grid-cols-1 " >
         <div className='flex text-sm justify-center items-center'>
           <div>
-            <img src="public/windy.png" alt="" />
+            <img src="/windy.png" alt="" />
           </div>
           <h5>{weather.wind.speed}m/s </h5>
         </div>
 
         <div className='flex text-sm justify-center items-center'>
           <div>
-            <img src="public/rain.png" alt="" />
+            <img src="/rain.png" alt="" />
           </div>
           <h5>{weather.main.humidity} % </h5>
         </div>
 
         <div className='flex text-sm justify-center items-center'>
           <div>
-            <img src="public/tabler_arrow-wave-right-down.png " alt="" />
+            <img src="/tabler_arrow-wave-right-down.png " alt="" />
           </div>
           <h5>{weather.main.pressure}HPA </h5>
         </div>
